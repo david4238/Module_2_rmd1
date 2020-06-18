@@ -96,6 +96,13 @@ summary(cars)
 
 ## Including Plots
 
+## Table example
+
+```{r table, echo=TRUE}
+knitr::kable(head(cars), caption = "Top 6 of cars dataset")
+```
+
+
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
