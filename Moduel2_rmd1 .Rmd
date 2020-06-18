@@ -3,9 +3,9 @@ title: "Module2 - R Markdown Document 1"
 author: "D.PIERROT"
 date: "17/06/2020"
 output:
-  pdf_document: default
-  html_document: default
   word_document: default
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -101,6 +101,31 @@ summary(cars)
 ```{r table, echo=TRUE}
 knitr::kable(head(cars), caption = "Top 6 of cars dataset")
 ```
+
+
+## Insert images 
+
+Here is an image inserted
+
+![sunstar](sunstar.png)
+
+
+
+## Insert an Animated and Video
+
+![sunstar](sunstar.gif)
+
+![sunstar](sunstar.mp4)
+
+## Insert text with some footnotes
+
+Here is footnote referenc [^1]  and another footnote [^longnote]
+
+Here is an inline footnote ^[ test and check pour r with a long foot note without references below]
+
+[^1]: here is a footnote
+
+[^longnote]: here's one with multiple blocks
 
 
 You can also embed plots, for example:
